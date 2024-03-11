@@ -1,0 +1,64 @@
+.bg-play{
+  background-image: url('../img/2151120916.jpg');
+  object-fit: cover;
+  width: 1200px;
+  height: 600px;
+  position: relative;
+}
+
+.pg{
+  
+  /* height: ; */
+  
+  position: absolute;
+  top: 68%;
+  left: 0;
+  overflow: hidden;
+  transform: translate(-50% -50%);
+  
+  
+}
+
+.start-move{
+  width: 20%;
+  object-fit: contain;
+  animation: movement 10s 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.pg img{
+  width: 120px;
+  object-fit: contain;
+}
+
+@keyframes movement{
+  0%{
+
+    left: 0;
+
+    
+  }
+  
+  25%{
+    left: 25%;
+
+
+  }
+  
+  50%{
+    left: 50%;
+
+  }
+  
+  75%{
+    left: 75%;
+
+
+  }
+
+  100%{
+    left: 92%;
+
+  }
+  
+  
+}
