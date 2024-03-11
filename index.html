@@ -22,8 +22,9 @@
 
       <!-- <div v-html="immagine" class=""></div> -->
 
-      
-      <div class="container bg-play">
+      <h3 class="text-center mt-3">{{ msgAnimation }}</h3>
+      <div class="container bg-play mt-1 ">
+
         <div class="pg " :class="{'start-move': isStartMove}" v-html="pgW" @click="isStartMove = !isStartMove"></div>
       </div>
     </div>
