@@ -51,8 +51,8 @@
 
 .baloon{
   position: absolute;
-  top: 53%;
-  left: 9%;
+  top: 59%;
+  left: 8%;
 }
 
 .baloon img{
@@ -65,8 +65,8 @@
   z-index: 999;
   font-weight: bold;
   position: absolute;
-  top: 56%;
-  left: 12%;
+  top: 62%;
+  left: 10.7%;
   transform: translate(-50% -50%);
 
   
