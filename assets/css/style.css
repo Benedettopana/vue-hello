@@ -62,3 +62,58 @@
   
   
 }
+
+.baloon{
+  /* display: none; */
+  position: absolute;
+  top: 53%;
+  left: 9%;
+}
+
+.baloon img{
+  object-fit: contain;
+  width: 160px;
+}
+
+.text{
+  /* display: none; */
+  width: 100px;
+  z-index: 999;
+  font-weight: bold;
+  position: absolute;
+  top: 56%;
+  left: 12%;
+  transform: translate(-50% -50%);
+
+  
+}
+
+.animation-hide{
+  animation: hide 10s 0.5s;
+  /* display: none; */
+}
+
+@keyframes hide{
+  0%{
+    display: block;
+    
+  }
+
+  1%{
+    display: none;
+    z-index: 0;
+  }
+  50%{
+    display: none;
+  }
+  100%{
+    display: block;
+  }
+}
+
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.4rem;
+}
