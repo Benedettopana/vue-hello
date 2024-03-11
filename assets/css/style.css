@@ -4,25 +4,22 @@
   width: 1200px;
   height: 600px;
   position: relative;
+  border-bottom: 20px solid darkgreen;
 }
 
 .pg{
-  
-  /* height: ; */
-  
   position: absolute;
-  top: 68%;
+  top: 76%;
   left: 0;
   overflow: hidden;
   transform: translate(-50% -50%);
-  
-  
 }
 
 .start-move{
   width: 20%;
   object-fit: contain;
   animation: movement 10s 0.5s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  
 }
 
 .pg img{
@@ -32,16 +29,10 @@
 
 @keyframes movement{
   0%{
-
-    left: 0;
-
-    
+    left: 0;   
   }
-  
   25%{
     left: 25%;
-
-
   }
   
   50%{
@@ -51,20 +42,14 @@
   
   75%{
     left: 75%;
-
-
   }
 
   100%{
-    left: 92%;
-
+    left: 92%;   
   }
-  
-  
 }
 
 .baloon{
-  /* display: none; */
   position: absolute;
   top: 53%;
   left: 9%;
@@ -76,7 +61,6 @@
 }
 
 .text{
-  /* display: none; */
   width: 100px;
   z-index: 999;
   font-weight: bold;
@@ -90,13 +74,11 @@
 
 .animation-hide{
   animation: hide 10s 0.5s;
-  /* display: none; */
 }
 
 @keyframes hide{
   0%{
-    display: block;
-    
+    display: block; 
   }
 
   1%{
@@ -111,6 +93,7 @@
   }
 }
 
+/* FONT BALOON */
 .vt323-regular {
   font-family: "VT323", monospace;
   font-weight: 700;
